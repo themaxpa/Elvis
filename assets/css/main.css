@@ -740,6 +740,9 @@ li {
  }
 }
 @media (max-width: 480px) {
+  #aboutP{
+    padding: 0px 0px 20px 0px 
+  }
   
   #aboutBlack,
   body{
@@ -756,14 +759,15 @@ li {
   .imgbox {
     display: block;
     width: 100%;
-    height: 30vh;
-    /* border:1px solid red;  */
-  }
+    height: 35vh;
+    /* border: 1px solid red; */
+}
   .imgbox img {
+    margin-left: 20px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 80%;
-  }
+    width: 50%;
+}
   .bx {
     display: block;
     margin-top: 25px;
